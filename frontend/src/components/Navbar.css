@@ -1,0 +1,89 @@
+.navbar {
+  background: #1a1a2e;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-brand a {
+  color: #00d4ff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.nav-badge {
+  background: #00ff8820;
+  color: #00ff88;
+  font-size: 9px;
+  padding: 2px 7px;
+  border-radius: 10px;
+  border: 1px solid #00ff8840;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nav-link {
+  color: #94a3b8;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+.nav-link:hover { color: #fff; background: #ffffff10; }
+
+.admin-link { color: #ffd32a !important; }
+.admin-link:hover { background: #ffd32a15 !important; }
+
+.nav-user {
+  color: #e2e8f0;
+  font-size: 13px;
+  padding: 0 8px;
+}
+
+.role-badge {
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.role-badge.user  { background: #3b82f620; color: #3b82f6; border: 1px solid #3b82f640; }
+.role-badge.admin { background: #ffd32a20; color: #ffd32a; border: 1px solid #ffd32a40; }
+
+.btn-logout {
+  background: #ff475720;
+  color: #ff4757;
+  border: 1px solid #ff475740;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s;
+}
+.btn-logout:hover { background: #ff475740; }
+
+.btn-primary {
+  background: #00d4ff;
+  color: #0a0e1a;
+  text-decoration: none;
+  padding: 7px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 13px;
+  transition: all 0.2s;
+}
+.btn-primary:hover { background: #00b8d9; }
