@@ -1,0 +1,23 @@
+# Java / Spring Boot
+backend/target/
+*.class
+
+# Node / React
+frontend/node_modules/
+frontend/build/
+
+# Local logs
+*.log
+*.err
+*.out
+
+# IDE / OS
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local environment files
+.env
+.env.*
+!.env.example
